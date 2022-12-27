@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS:Cascading Style Sheet</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>CSS:Cascading Style Sheet</h1>
+        <h3>There are three ways to write CSS</h3>
+        
+        <ol>
+            <li>Inline CSS</li>
+            <li>Internal CSS</li>
+            <li>External CSS</li>
+        </ol>
+
+        <h4>1.Inline CSS</h4>
+        <style>
+        *{
+            margin:0;
+            padding:0
+        }
+    
+            /* h1,h2,h3,h4,h5,h6,p,ul,ol,li,img,a,table,th,td
+            {
+                margin:0;
+                padding:0
+            } */
+        p{
+            color:purple;
+            font-size:30px;
+            font-weight:Bold;
+        }
+        #first-paragraph 
+        {
+            color:blueviolet;
+        }
+        #second-paragraph
+        {
+            color:purple;
+        }
+        .my-own-class
+        {
+            font-size:20px;
+            font-style:italic;
+            text-decoration:underline;
+        }
+        h1{
+            background: blueviolet;
+            text-align: Center;
+            text-decoration:underline;
+            text-decoration-color:black;
+        }
+        .box1{
+            width:200px;
+            height:200px;
+            background-image: linear-gradient(red
+            ,blue);
+            text-align:center;
+            background: url('images/img2.jpg');
+
+            
+        }
+        .box1{
+            color:red;
+        }
+        .box1 h5{
+            color:white;
+        }
+        </style>
+        <!-- <p style="color:purple; font-size:50px; font weight: Bold; font style: Italic">Example Inline CSS</p>
+        <p style="color:Blue; font size:50px; font weight: Bold; font style: Italic">Example of Internal CSS</p> -->
+        <p id="first-paragraph">Example of Inline class</p>
+        <p id="second-paragraph">Example of Internal Class</p>
+        <p class="my-own-class">I'm on the way</p>
+        <p class="my-own-class">I'm on the way</p>
+<h3> div is non-sematic element</h3>
+        <div class="box1">
+            <h5>i am internal h5</h5>
+        </div>
+        <h5>i am outermost h5</h5>
+    </body>
+</html>

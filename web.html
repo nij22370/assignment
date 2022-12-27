@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS:Cascading Style Sheet</title>
+    </head>
+    <body>
+        <h1>CSS:Cascading Style Sheet</h1>
+        <h3>There are three ways to write CSS</h3>
+        
+        <ol>
+            <li>Inline CSS</li>
+            <li>Internal CSS</li>
+            <li>External CSS</li>
+        </ol>
+
+        <h4>1.Inline CSS</h4>
+        <link href="style.css" rel="stylesheet">
+        <style>
+            h1,h2,h3,h4,h5,h6,p,ul,ol,li,img,a,table,th,td
+            {
+                margin:0;
+                padding:0
+            }
+        p{
+            color: purple;
+            font-size:30px;
+            font-weight:Bold;
+        }
+        #first-paragraph{
+            color:green;
+        }
+    
+    #sec-paragraph{
+            color:antiquewhite;}
+
+        .my-on-class{
+            font-size:40px;
+            font-style:italic;
+            text-decoration:underline;
+
+        }
+    }
+
+        </style>
+       
+        <!-- <p style="color:purple; font-size:50px; font weight: Bold; font style: Italic">Example Inline CSS</p>
+        <p style="color:Blue; font size:50px; font weight: Bold; font style: Italic">Example of Internal CSS</p> -->
+        <p id="first-paragraph">Example of Inline class</p>
+        <p id="sec-paragraph">Example of Internal Class</p>
+
+
+        <p class="my-on-class">i am on the way</p>
+        <p class="my-on-class">i am on the way</p>
+
+    </body>
+</html>
